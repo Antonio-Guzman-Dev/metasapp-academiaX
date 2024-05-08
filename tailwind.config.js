@@ -4,8 +4,16 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      height: {
+        sm: '8px',
+        md: '16px',
+        lg: '30px',
+        xl: '50px',
+        principal: '80px',
+      },
+    },
   },
-  plugins: [],
+  plugins: [require('tailwindcss-neumorphism')],
 }
 

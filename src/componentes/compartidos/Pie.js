@@ -1,7 +1,9 @@
+import './Pie.css';
+
 function Pie() {
     return (
-      <footer className="text-red-500">
-        <small>Desarrollado y diseñado por Xavier Reyes Ochoa ©2024. Todos los derechos reservados</small>
+      <footer className="pie">
+        <small>Desarrollado y diseñado por Xavier Reyes Ochoa para Academia X ©2024. Todos los derechos reservados.</small>
       </footer>
     );
   }

@@ -1,0 +1,20 @@
+.encabezado {
+    @apply h-xl flex items-center justify-between shadow bg-white text-gray-700 relative;
+}
+
+.logo{
+    @apply mr-2 h-10 w-10;
+}
+
+.perfil{
+    @apply flex items-center px-4 h-xl hover:bg-gray-200;
+}
+
+.logoPerfil{
+    @apply h-8 w-8;
+}
+
+.metas{
+    @apply flex items-center text-xl font-semibold text-gray-900 uppercase;
+}
+
