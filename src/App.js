@@ -11,7 +11,7 @@ function App() {
 
       <Encabezado></Encabezado>
       <Principal>
-        {/*<Lista></Lista>*/}
+        <Lista></Lista>
         <Detalles></Detalles>
       </Principal>
       <Pie></Pie>
