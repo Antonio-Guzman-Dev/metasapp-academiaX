@@ -1,8 +1,9 @@
 import Encabezado from './componentes/compartidos/Encabezado';
 import Pie from './componentes/compartidos/Pie';
 import Principal from './componentes/compartidos/Principal';
-import Meta from './componentes/lista/Meta';
+import Lista from './componentes/lista/Lista';
 import './App.css';
+import Detalles from './componentes/nueva/Detalles';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
 
       <Encabezado></Encabezado>
       <Principal>
-        <Meta></Meta>
+        {/*<Lista></Lista>*/}
+        <Detalles></Detalles>
       </Principal>
       <Pie></Pie>
 
