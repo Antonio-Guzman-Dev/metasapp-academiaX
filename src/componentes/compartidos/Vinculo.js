@@ -1,11 +1,13 @@
+import { Link }  from 'react-router-dom';
 import estilos from './Vinculo.module.css';
 
-function Vinculo({ Icono, texto, href }) {
+function Vinculo({ Icono, texto, to }) {
     return(
-        <a href={href} className={estilos.vinculo}>
+
+        <Link to={to} className={estilos.vinculo}>
             <Icono className={estilos.icono} />
-            <span className={estilos.texto}>{texto}</span>
-        </a>
+            { texto && <span className={estilos.texto}>{texto}</span> }
+        </Link>
     );
 }
 
